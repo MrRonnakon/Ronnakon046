@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Playfair Display", serif;
+    background:linear-gradient(#000000,#1B1833,#441752);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    
+  }
+  
+  h2, h3 {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: white;;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  h2 a, h3 a {
+    display: block;
+    margin-top: 10px;
+    color: white;;
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #997C70;
+    color: white;;
+  }
+  
+  td {
+    background-color: #997C70;
+  }
+  
+  table tr:hover {
+    background-color: #997C70;
+  }
+  
+  #เมนู {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #997C70;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #997C70;
+  }
+  
+  table tr:hover {
+    background-color: #997C70;
+  }
